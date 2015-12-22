@@ -40,9 +40,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</ul>
 	</div>
 	<table>
-	<tr><td colspan="6">测试</td></tr>
+	<tr><td colspan="6">cms发布管理</td></tr>
 	<tr>
-		<td><input type="button"  value="测试样例"  onclick='setbinding("/cmsPublisherManage/queryMyCapitalSurvey","{\"app\":{\"appId\":\"paas\",\"timeStamp\":\"TIMESTAMP\",  \"nonce\":\"NONCE\", \"signature\":\"21aa0011472249b4292e81504f3917bd\"  }, \"body\":{\"token\":\"96c5f0e5e3c52fa0fc632aaa30d4fb85\"}}")'></td>
+		<td><input type="button"  value="cms发布"  onclick='setbinding("/cmsManager/publish","{\"docId\":32}")'></td>
 	</tr>
 	
 </table>

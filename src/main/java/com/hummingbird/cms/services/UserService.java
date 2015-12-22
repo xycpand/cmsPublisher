@@ -3,6 +3,7 @@ package com.hummingbird.cms.services;
 
 import com.hummingbird.cms.entity.User;
 import com.hummingbird.cms.exception.MaAccountException;
+import com.hummingbird.common.exception.BusinessException;
 
 public interface UserService {
 	/**
